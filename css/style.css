@@ -63,6 +63,16 @@
     text-align: center;
 }
 
+.tile-btn {
+    color: #e6563b;
+    border: none;
+}
+
+.tile-btn:hover {
+    background-color: #113565;
+    color: #fff;
+}
+
 .orange {
     background-color: #e6563b;
     color: #fff;
@@ -103,7 +113,7 @@
     font-size: 1.3rem;
 }
 
-.button.blue {
+.button.blue, .close-btn {
     border: none;
     background-color: #113565;
     color: #fff;
@@ -117,6 +127,15 @@
 .profile {
     display: flex;
     margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #113565;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.profile img {
+    margin: 0.5rem;
 }
 
 .footer {
@@ -133,6 +152,30 @@
 .footer-copy {
     padding-bottom: 2rem;
     border-bottom: 6px double #e6563b;
+}
+
+.modal-card-head {
+    background-color: #113565;
+}
+
+.modal-card-title {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+}
+
+.modal-card-foot {
+    display: flex;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    background-color: #e6563b;
+    color: #fff;
+}
+
+.modal-img {
+    padding: 1rem 0;
 }
 
 @media only screen
